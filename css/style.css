@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    width: 175px;
+    height: 250px;
+    border: 1px solid red;
+    border-radius: 5%;
+}
+h3{
+    padding-top: 13px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+}
